@@ -89,9 +89,9 @@ class ResidualBlock(Module):
         return out
 
 
-class TransformerNet(Module):
+class ModelTransformNet(Module):
     def __init__(self):
-        super(TransformerNet, self).__init__()
+        super(ModelTransformNet, self).__init__()
 
         # Initial convolution layers
         self.conv1 = ConvLayer(1, 32, kernel_size=(3,9,9), stride=(1,1,1))

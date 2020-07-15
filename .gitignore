@@ -1,2 +1,5 @@
-data/
-c3d.pickle
+*.pickle
+*.h5
+*.pth
+.ipynb_checkpoints/
+__pycache__/
